@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.myphoto{
+  display: block;
+    margin: auto;
+}
+.name{
+  text-align: center;
+  color: white;
+  margin-top: -40px;
+  font-size: 30px;
+}
+.subname{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: -28px;
+}
+h2,i{
+  font-size: 32px;
+  color: #fff;
+  margin-left: 10px;
+}
+.about{
+text-align: justify-all;
+color: #fff;
+margin:10px;
+padding: 0px 10px; 
+
+}
+ul, li{
+  list-style-type: none;
+  margin-left: -15px;
+  margin-bottom: 20px;
+}
+.icon{
+  margin-right: 10px;
+  font-size: 30px;
+}
+.icontext{
+  color: #fff;
+ font-size: 18px;
+
+}
+.progresstext{
+  color: #fff;
+  font-size: bold
+}
+.container {
+            background-color: #fff;
+            width: 80%;
+            border-radius: 15px;
+        }
+      
+        .skill {
+            background-color: #6b6d6f;
+            color: white;
+            padding: 2%;
+            text-align: right;
+            font-size: 18px;
+            border-radius: 15px;
+        }
+      
+        .html {
+            width: 90%;
+        }
+         .laravel {
+            width: 75%;
+        }
+         .git {
+            width: 80%;
+        }
+         .php {
+            width: 80%;
+        }
+         .javascript {
+            width: 70%;
+        }
+         .jquery {
+            width: 60%;
+        }
+         .wordpress {
+            width: 90%;
+        }
+
+.passion{
+   text-align: left;
+  color: #fff;
+  font-size: 20px;
+  margin-top: px;
+}
+
+/* Main column */
+
+.mainh2{
+  font-size: 32px;
+  color: #000;
+  margin-left: 10px;
+}
+.mainicon{
+  font-size: 32px;
+  color: #000;
+  margin-left: 10px;
+}
+.mainh3{
+  margin-left: 25px;
+  padding-bottom: 2px;
+}
+#language{
+  margin-left: -30px;
+  margin-top: -40px;
+}
+.lang{
+  text-align: center;
+  margin-left: -475px;
+  margin-top: -130px
+}
+.lang2{
+  text-align: center;
+  margin-left: -20px;
+  margin-top: -50px
+}
+
+
+/*css responsive start here*/
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+   /* padding: 15px;*/
+}
+
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Sidebar/left column */
+.side {
+  background-color: #2556a5;
+  padding: 20px;
+}
+.main {
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+     .myphoto{
+      height: 250px;
+     width:250px; 
+     
+     display: block;
+      margin: auto;
+  }
+    .name{
+  text-align: center;
+  color: white;
+  margin-top: -40px;
+  font-size: 22px;
+  }
+  .subname{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -22px;
+  }
+  h2,i{
+    font-size: 26px;
+    color: #fff;
+    margin-left: 8px;
+  }
+  .passion{
+   text-align: left;
+    color: #fff;
+    font-size: 16px;
+    margin-top: px;
+  }
+  .mainh2{
+  font-size: 22px;
+  color: #000;
+  margin-left: 10px;
+}
+.mainicon{
+  font-size: 16px;
+  color: #000;
+  margin-left: 10px;
+}
+.mainh3{
+  margin-left: 25px;
+  padding-bottom: 2px;
+}
+#language{
+  margin-left: -30px;
+  margin-top: -40px;
+  width: 340px;
+}
+  .lang{
+    font-size: 10px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -85px
+  }
+  .lang2{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: -40px
+  }
+
+}
+
+
